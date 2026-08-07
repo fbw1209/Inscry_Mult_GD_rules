@@ -11,7 +11,7 @@
 	"allow_snuffing_candles": true,
 	"enable_backrow": false,
 	"portrait": "portraits/Geck",
-	"description": "fbw1209和茶液氮制作的奇妙规则，\n包含了一些有趣的卡牌，如果有\n图片加载不出来是正常现\n象不是BUG谢谢",
+	"description": "fbw1209和茶液氮制作的奇妙规则，\n包含了一些有趣的卡牌，如果有\n图片加载不出来是\n正常现象不是BUG谢谢",
 	"cards": [
 		{
 			"name": "百度网盘",
@@ -20,8 +20,8 @@
 				"Made of Stone"
 			],
 			"attack": 0,
-			"health": 99,
-			"pixport_url": "https://gips3.baidu.com/it/u=1455301038,626612076&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f400_400"
+			"health": 20,
+			"pixport_url": "https://filmly.res.netease.com/website/img/source_05_016d7bf4.png"
 		},
 		{
 			"name": "百度",
@@ -29,7 +29,7 @@
 				"Touch of Death"
 			],
 			"attack": 1,
-			"health": 1,
+			"health": 2,
 			"blood_cost": 1,
 			"pixport_url": "https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png"
 		},
@@ -83,10 +83,10 @@
 		{
 			"name": "bilibili",
 			"sigils": [
-				"Leader",
 				"Enlarge"
 			],
 			"rare": true,
+      "active": true,
 			"attack": 1,
 			"health": 2,
 			"energy_cost": 2,
@@ -97,7 +97,7 @@
 			"name": "百度百科",
 			"attack": 1,
 			"health": 1,
-			"pixport_url": "https://gips0.baidu.com/it/u=2189793486,1632876797&fm=3012&app=3012&autime=1785371917&size=b200,200"
+			"pixport_url": "https://bkimg.cdn.bcebos.com/smart/8326cffc1e178a82b90122c47749648da97739124236-bkimg-process,v_1,rw_691,rh_252,maxl_1383?x-bce-process=image/format,f_auto"
 		},
 		{
 			"name": "百度翻译",
@@ -108,403 +108,57 @@
 			"health": 2,
 			"pixport_url": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/logo.b10defd4.png"
 		},
-		    {
-      "name": "Bat",
-      "sigils": [
-        "Airborne"
-      ],
-      "attack": 2,
-      "health": 1,
-      "bone_cost": 3
-    },
     {
-      "name": "Beaver",
+      "name": "百度图片",
       "sigils": [
-        "Dam Builder"
+        "Vessel Printer"
       ],
       "attack": 1,
-      "health": 3,
-      "blood_cost": 1
-    },
-    {
-      "name": "Dam",
-      "attack": 0,
-      "health": 2,
-      "sigils": [
-        "Mighty Leap"
-      ],
-      "nosac": true,
-      "banned": true
-    },
-    {
-      "name": "Bee",
-      "sigils": [
-        "Airborne"
-      ],
-      "attack": 1,
-      "health": 1,
-      "banned": true,
-      "rare": true
-    },
-    {
-      "name": "Beehive",
-      "sigils": [
-        "Bees Within",
-        "Mighty Leap"
-      ],
-      "attack": 0,
-      "health": 2
-    },
-    {
-      "name": "Black Goat",
-      "attack": 0,
-      "health": 1,
-      "sigils": [
-        "Worthy Sacrifice"
-      ],
-      "rare": true
-    },
-    {
-      "name": "Bloodhound",
-      "sigils": [
-        "Guardian"
-      ],
-      "attack": 2,
-      "health": 3,
-      "blood_cost": 2
-    },
-    {
-      "name": "Bullfrog",
-      "sigils": [
-        "Mighty Leap"
-      ],
-      "attack": 1,
-      "health": 2
-    },
-    {
-      "name": "Cat",
-      "sigils": [
-        "Many Lives"
-      ],
-      "attack": 0,
-      "health": 1,
-      "rare": true
-    },
-    {
-      "name": "Undead Cat",
-      "attack": 3,
-      "health": 6,
-      "blood_cost": 1,
-      "nosac": true,
-      "banned": true
-    },
-    {
-      "name": "Cockroach",
-      "attack": 1,
-      "health": 1,
-      "sigils": [
-        "Unkillable (Eternal)"
-      ],
-      "bone_cost": 2
-    },
-    {
-      "name": "Corpse Maggots",
-      "sigils": [
-        "Corpse Eater",
-        "Burrower"
-      ],
-      "attack": 1,
-      "health": 2,
-      "bone_cost": 5,
-      "rare": true
-    },
-    {
-      "name": "Dire Wolf Pup",
-      "attack": 1,
-      "health": 1,
-      "sigils": [
-        "Bone Digger",
-        "Fledgling"
-      ],
-      "blood_cost": 1,
-      "evolution": "Dire Wolf",
-      "rare": true
-    },
-    {
-      "name": "Dire Wolf",
-      "attack": 2,
-      "health": 5,
-      "sigils": [
-        "Double Strike"
-      ],
-      "blood_cost": 3
-    },
-    {
-      "name": "Hrokkall",
-      "attack": 1,
-      "health": 1,
-      "sigils": [
-        "Waterborne",
-        "Battery Bearer"
-      ],
-      "blood_cost": 1
-    },
-    {
-      "name": "Eel",
-      "attack": 1,
-      "health": 1,
-      "sigils": [
-        "Waterborne"
-      ],
-      "blood_cost": 1,
-      "conduit": true
-    },
-    {
-      "name": "Elk",
-      "sigils": [
-        "Sprinter"
-      ],
-      "attack": 2,
       "health": 4,
-      "blood_cost": 2
+      "energy_cost": 2,
+      "pixport_url": "https://gips0.baidu.com/it/u=838505001,1009740821&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f254_80"
     },
     {
-      "name": "Elk Fawn",
+      "name": "搜狗",
       "sigils": [
-        "Sprinter",
-        "Fledgling"
-      ],
-      "attack": 1,
-      "health": 1,
-      "blood_cost": 1,
-      "evolution": "Elk"
-    },
-    {
-      "name": "Long Elk",
-      "attack": 1,
-      "health": 2,
-      "sigils": [
-        "Sprinter",
-        "Touch of Death"
-      ],
-      "sheds": "Vertebrae",
-      "bone_cost": 4
-    },
-    {
-      "name": "Vertebrae",
-      "attack": 0,
-      "health": 1,
-      "banned": true
-    },
-    {
-      "name": "Field Mice",
-      "sigils": [
-        "Fecundity (Kaycee)"
-      ],
-      "attack": 2,
-      "health": 2,
-      "blood_cost": 2
-    },
-    {
-      "name": "Spore Mice",
-      "sigils": [
-        "Fecundity (Kaycee)",
-        "Fecundity (Kaycee)"
-      ],
-      "attack": 2,
-      "health": 2,
-      "blood_cost": 2,
-      "rare": true
-    },
-    {
-      "name": "Hawk",
-      "sigils": [
-        "Airborne"
-      ],
-      "attack": 2,
-      "health": 1,
-      "blood_cost": 1
-    },
-    {
-      "name": "Rat King",
-      "sigils": [
-        "Bone King"
-      ],
-      "attack": 2,
-      "health": 1,
-      "blood_cost": 1
-    },
-    {
-      "name": "Raven Egg",
-      "sigils": [
-        "Fledgling"
-      ],
-      "attack": 0,
-      "health": 2,
-      "evolution": "Raven",
-      "bone_cost": 2
-    },
-    {
-      "name": "Kingfisher",
-      "sigils": [
-        "Airborne",
-        "Waterborne"
-      ],
-      "attack": 1,
-      "health": 1
-    },
-    {
-      "name": "Great Kraken",
-      "sigils": [
-        "Tentacle"
-      ],
-      "attack": 1,
-      "health": 1,
-      "blood_cost": 1,
-      "rare": true
-    },
-    {
-      "name": "Alpha",
-      "attack": 1,
-      "health": 2,
-      "sigils": [
-        "Leader"
-      ],
-      "bone_cost": 5
-    },
-    {
-      "name": "Magpie",
-      "sigils": [
-        "Airborne",
-        "Hoarder"
-      ],
-      "attack": 1,
-      "health": 1,
-      "blood_cost": 2,
-      "rare": true
-    },
-    {
-      "name": "Mantis",
-      "sigils": [
-        "Bifurcated Strike"
-      ],
-      "attack": 1,
-      "health": 1,
-      "blood_cost": 1
-    },
-    {
-      "name": "Mantis God",
-      "sigils": [
-        "Trifurcated Strike"
-      ],
-      "attack": 1,
-      "health": 1,
-      "blood_cost": 1,
-      "rare": true
-    },
-    {
-      "name": "Mole",
-      "sigils": [
-        "Burrower"
-      ],
-      "attack": 0,
-      "health": 3
-    },
-    {
-      "name": "Mole Man",
-      "sigils": [
-        "Burrower",
-        "Mighty Leap"
+        "Handy"
       ],
       "attack": 0,
       "health": 6,
-      "rare": true
+      "energy_cost":3,
+      "pixport_url": "https://i-1.shuajizhijia.net/2023/0223/2e570693232148a281e23350014feb25.png"
     },
     {
-      "name": "Moose Buck",
-      "attack": 3,
-      "health": 7,
-      "sigils": [
-        "Hefty"
-      ],
-      "blood_cost": 3
-    },
-    {
-      "name": "Opossum",
-      "attack": 1,
-      "health": 1
-    },
-    {
-      "name": "Ouroboros",
-      "sigils": [
-        "Unkillable"
-      ],
-      "attack": 1,
-      "health": 1,
-      "blood_cost": 2,
-      "nosac": true,
-      "rare": true
-    },
-    {
-      "name": "Rabbit",
-      "attack": 0,
-      "health": 1,
+      "name":"360全家桶",
       "rare": true,
-      "banned": true
-    },
-    {
-      "name": "Skunk",
-      "attack": 0,
-      "health": 2,
       "sigils": [
-        "Stinky"
-      ]
+        "Unkillable",
+        "Frozen Away"
+      ],
+      "attack": 5,
+      "evolution": "360安全卫士",
+      "health": 10,
+      "energy_cost": 6,
+      "pixport_url": "https://se3.360simg.com/t01e2879d675f7f8e98.png"
     },
     {
-      "name": "Coyote",
-      "attack": 2,
-      "health": 1,
-      "bone_cost": 3
-    },
-    {
-      "name": "Great White",
-      "attack": 4,
-      "health": 1,
-      "blood_cost": 3,
+      "name":"360安全卫士",
       "sigils": [
-        "Waterborne"
-      ]
-    },
-    {
-      "name": "Grizzly",
-      "attack": 4,
-      "health": 6,
-      "blood_cost": 3
-    },
-    {
-      "name": "Grizzly Cub",
-      "attack": 2,
-      "health": 1,
-      "blood cost": 1,
-      "sigils": [
+        "Unkillable",
         "Fledgling"
       ],
-      "evolution": "Grizzly",
-      "rare": true
-    },
-	    {
-      "name": "Squirrel",
-      "attack": 0,
-      "health": 1,
-      "banned": true
+      "evolution": "360全家桶",
+      "attack": 2,
+      "health": 3,
+      "energy_cost": 4,
+      "pixport_url": "https://pic.yx007.com/up/2019-11/2019114173732107.png"
     },
     {
-      "name": "Squirrel Ball",
-      "sigils": [
-        "Squirrel Shedder"
-      ],
-      "attack": 0,
-      "health": 1
+      "name":"苹果",
+      "banned": true,
+      "attack":0,
+      "health": 3,
+      "pixport_url":"https://sc.chinaz.com/Files/pic/icons/2159/%E8%8B%B9%E6%9E%9C%E6%A1%8C%E9%9D%A2%E5%9B%BE%E6%A0%87%E4%B8%8B%E8%BD%BD18.png"
     }
 	],
 	"sigils": {
@@ -674,34 +328,8 @@
 		"Eternal": {
 			"type": "draft",
 			"cards": [
-				"Squirrel",
-				"Bee",
-				"Geck",
-				"Rabbit",
-				"Skeleton",
-				"Empty Vessel",
-				"Armored Vessel",
-				"Battery Vessel",
-				"Leaping Vessel",
-				"Conduit Vessel",
-				"Sentry Vessel",
-				"Sharp Vessel",
-				"Ruby Vessel",
-				"Emerald Vessel",
-				"Sapphire Vessel",
-				"Ruby Mox",
-				"Emerald Mox",
-				"Sapphire Mox",
-				"Bleene's Mox",
-				"Orlu's Mox",
-				"Goranj's Mox",
-				"Mox Module",
-				"Bloody Vessel",
-				"Conductive Vessel",
-				"Contaminated Vessel",
-				"Energized Vessel",
-				"Splintered Vessel"
-			],
+        "苹果"
+      ],
 			"count": 27
 		}
 	}
